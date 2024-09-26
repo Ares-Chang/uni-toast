@@ -66,6 +66,7 @@
     "typescript": "^5.5.3",
     "unocss": "^0.62.4",
     "vite": "^5.3.4",
+    "vite-plugin-css-injected-by-js": "^3.5.1",
     "vite-plugin-dts": "^4.1.0",
     "vitest": "^2.0.3",
     "vue": "^3.4.38"

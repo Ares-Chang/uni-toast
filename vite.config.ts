@@ -3,6 +3,7 @@
 import path from 'node:path'
 import { defineConfig } from 'vite'
 import Vue from '@vitejs/plugin-vue'
+import UnoCSS from 'unocss/vite'
 import Dts from 'vite-plugin-dts'
 
 export default defineConfig({
@@ -29,6 +30,10 @@ export default defineConfig({
   },
   plugins: [
     Vue(),
+
+    // https://github.com/antfu/unocss
+    // see uno.config.ts for config
+    UnoCSS(),
 
     /**
      * 打包时生成 .d.ts 文件

@@ -1,13 +1,11 @@
 <script setup lang="ts">
-import { one } from '../index'
-
 function click(): void {
-  console.warn(one)
+  console.warn(123456)
 }
 </script>
 
 <template>
-  <div @click="click">
+  <div class="bg-red" @click="click">
     button
   </div>
 </template>
